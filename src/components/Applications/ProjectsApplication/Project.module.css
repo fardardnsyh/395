@@ -1,0 +1,89 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(160, 28, 151);
+  padding: 16px;
+}
+
+.projectTop {
+  display: flex;
+  gap: 16px;
+}
+
+.project:hover {
+  box-shadow: rgba(46, 182, 240, 0.4) -5px 5px,
+    rgba(46, 201, 240, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  transform: scale(1.01);
+}
+
+.image {
+  height: auto;
+  width: 400px;
+  margin-bottom: 12px;
+}
+
+.projectTop img {
+  cursor: default;
+}
+
+.projectInner {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-grow: 1;
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: bold;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.tech {
+  padding: 4px 12px;
+  user-select: none;
+  background-color: rgb(155, 243, 233);
+  border-radius: 12px;
+  transition-duration: 100ms;
+  transition-property: color, background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tech:hover {
+  background-color: rgb(250, 154, 250);
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-grow: 1;
+  gap: 8px;
+  padding: 8px 4px;
+}
+
+.projectLinks a {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  background-color: rgb(250, 162, 248);
+  transition-duration: 150ms;
+  transition-property: background-color;
+  transition-timing-function: ease-in-out;
+  padding: 6px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.projectLinks a:hover {
+  background-color: rgb(250, 98, 250);
+}

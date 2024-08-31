@@ -1,0 +1,25 @@
+.notification {
+    background-color: white;
+    padding: 6px;
+    border-left: 3px solid rgb(239, 72, 239);
+    max-width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.notification div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.notification p {
+    font-size: 0.9rem;
+    margin: 0;
+}

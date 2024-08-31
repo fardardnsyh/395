@@ -1,0 +1,12 @@
+.window {
+    padding: 16px;
+    height: calc(100% - 40px);
+    overflow-y: scroll;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+}

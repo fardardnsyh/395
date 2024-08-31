@@ -1,0 +1,82 @@
+.window {
+    padding: 16px;
+    max-height: calc(100% - 40px);
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    flex-grow: 2;
+}
+
+.strongText {
+    font-weight: bold;
+    color: rgb(220, 28, 204);
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.strongText2 {
+    font-weight: bold;
+    color: rgb(28, 156, 220);
+    font-style: italic;
+}
+
+.profilePicture {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.profilePicture > div {
+    flex-grow: 2;
+
+}
+
+.profilePicture > p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(220, 28, 204);
+    font-style: italic;
+}
+
+.profilePicture img {
+    width: 100px;
+    height: 100px;
+    cursor: default;
+    margin-right: 20px;
+}
+
+.konamiSection {
+    margin-left: 480px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1px;
+    transform: rotate(-4deg);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.konamiSection:hover {
+    background-color: rgb(255, 23, 228);
+}
+
+.konamiSection span {
+    margin-left: 5px;
+    font-weight: 800;
+}
+
+.konamiSection svg, .konamiSection span {
+    color: #e3e3e3;
+}
+
+.timeElapsed {
+    color:rgb(220, 28, 204);
+    font-weight: 600;
+}
